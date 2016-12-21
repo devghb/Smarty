@@ -1,2 +1,1 @@
-Smarty
-<h2>frist readme</h2>
+这是一个完全简化的Smarty，支持原smarty的语法。

@@ -672,6 +672,7 @@ class ecsTemplate
     }
 
     /**
+     * 这里当初为了兼容yaf,如你用不到可以删除
      * 渲染视图，接口的抽象方法，必须实现的
      * @param $tpl
      * @param array $tplVars

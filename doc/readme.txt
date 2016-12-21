@@ -1,16 +1,16 @@
 
 模板标签/语法
 
-在ECMall模板中，用"{"开头，以"}"结尾就构成一个标签单元，"{"紧接着的单词就是标签名。在标签单元中单词前含"$"(美元符)的为变量名。
+在模板中，用"{"开头，以"}"结尾就构成一个标签单元，"{"紧接着的单词就是标签名。在标签单元中单词前含"$"(美元符)的为变量名。
 
 一、资源引用
     res标签
 功能：返回当前模板当前风格目录的url路径
-实例：{res file=css/ecmall.css}这个标签在模板编译后将变成http://商城域名/themes/default/styles/default，注意末尾没有"/"，返回结果会随后台设置的主题变化
+实例：{res file=css/css.css}这个标签在模板编译后将变成http://商城域名/themes/default/styles/default，注意末尾没有"/"，返回结果会随后台设置的主题变化
 
     lib标签
 功能：返回javascript库的url路径
-实例：{lib file=ecmall.js}这个标签在模板编译后将变成http://商城域名/includes/libraries/javascript，注意末尾没有"/"，返回结果不会随后台设置的主题变化
+实例：{lib file=js.js}这个标签在模板编译后将变成http://商城域名/includes/libraries/javascript，注意末尾没有"/"，返回结果不会随后台设置的主题变化
 
     url标签
 功能：url解析器，可根据后台伪静态状态返回相应url等。

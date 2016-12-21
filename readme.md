@@ -1,1 +1,2 @@
-frist readme
+Smarty
+<h2>frist readme</h2>

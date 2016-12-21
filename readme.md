@@ -1,1 +1,2 @@
 这是一个完全简化的Smarty，支持原smarty的语法。
+重构后的template.php只有20KB，你可以很方便的集成到yaf/yii/laravel等框架中。

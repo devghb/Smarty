@@ -4,7 +4,7 @@ define("PATH",dirname(__FILE__));
 require_once(PATH . '/code/template.php');
 $smarty = new Template();
 $smarty->_template = PATH . '/template';//模板文件路径
-$smarty->_res_base = PATH . '/template';//css js image 等静太文件路径
+$smarty->_res_base = 'http://127.0.0.1/template';//css js image 等静态文件路径
 
 //赋值
 $smarty->assign("title", "api");

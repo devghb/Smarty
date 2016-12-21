@@ -1,5 +1,4 @@
 <?php
-
 class Template
 {
     public $_template = "";//模板路径

@@ -1,6 +1,6 @@
 <?php
 
-class ecsTemplate
+class Template
 {
     public $_template = "";//模板路径
     public $_res_base = "";//静态文件路径如js,css
@@ -78,7 +78,7 @@ class ecsTemplate
     function fetch_str($source)
     {
         return preg_replace_callback("/{([^\}\{\n]*)}/", function($r) {
-            //return ecsTemplate::select($r[1]);
+            //return Template::select($r[1]);
             return $this->select($r[1]);
         }, $source);
     }
